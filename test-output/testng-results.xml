@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-13T18:56:43Z" name="All Test Suite" finished-at="2021-10-13T18:56:55Z" duration-ms="12210">
+    <groups>
+    </groups>
+    <test started-at="2021-10-13T18:56:43Z" name="DEMO API" finished-at="2021-10-13T18:56:48Z" duration-ms="5347">
+      <class name="TestCases.testAPI">
+        <test-method signature="testCreatesBooking(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.testAPI@1dd02175]" started-at="2021-10-13T18:56:43Z" name="testCreatesBooking" data-provider="getData" finished-at="2021-10-13T18:56:46Z" duration-ms="3891" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jim]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Brown]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Breakfast]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatesBooking -->
+        <test-method signature="testCreatesBooking(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.testAPI@1dd02175]" started-at="2021-10-13T18:56:46Z" name="testCreatesBooking" data-provider="getData" finished-at="2021-10-13T18:56:47Z" duration-ms="705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[KIM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FON]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5555555]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dinner]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatesBooking -->
+        <test-method signature="testCreatesBooking(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.testAPI@1dd02175]" started-at="2021-10-13T18:56:47Z" name="testCreatesBooking" data-provider="getData" finished-at="2021-10-13T18:56:48Z" duration-ms="679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mary]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Russ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birhtday]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatesBooking -->
+      </class> <!-- TestCases.testAPI -->
+    </test> <!-- DEMO API -->
+    <test started-at="2021-10-13T18:56:48Z" name="DEMO FORM" finished-at="2021-10-13T18:56:55Z" duration-ms="6804">
+      <class name="TestCases.testFORM">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.testFORM@58134517]" started-at="2021-10-13T18:56:48Z" name="setup" finished-at="2021-10-13T18:56:52Z" duration-ms="3742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goToUrl()[pri:0, instance:TestCases.testFORM@58134517]" started-at="2021-10-13T18:56:52Z" name="goToUrl" finished-at="2021-10-13T18:56:54Z" duration-ms="2307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToUrl -->
+        <test-method signature="sendForm()[pri:0, instance:TestCases.testFORM@58134517]" started-at="2021-10-13T18:56:54Z" name="sendForm" finished-at="2021-10-13T18:56:54Z" duration-ms="505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendForm -->
+        <test-method is-config="true" signature="closedDriver()[pri:0, instance:TestCases.testFORM@58134517]" started-at="2021-10-13T18:56:54Z" name="closedDriver" finished-at="2021-10-13T18:56:55Z" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedDriver -->
+      </class> <!-- TestCases.testFORM -->
+    </test> <!-- DEMO FORM -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

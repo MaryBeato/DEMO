@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/MaryB/Documents/AVIOTESTING/DEMOS/Automation">
+        <classes>
+            <class name="TestCases.testAPI">
+             <methods>
+                 <include name="testCreatesBooking"/>
+            </methods>
+            </class>
+            <class name="TestCases.testFORM">
+            <methods>
+                <include name="sendForm"/>
+            </methods>
+        </class>
+        </classes>
+    </test>
+
+
+    <test name="DEMO API">
+        <classes>
+            <class name="TestCases.testAPI"/>
+        </classes>
+    </test>
+</suite>
